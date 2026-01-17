@@ -2,27 +2,27 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'Rhythm Sprint',
-    description: 'Hyper-responsive rhythm runner with adaptive haptics and 60fps budget on mid-tier devices.',
-    link: '/blog/leveling-up-mobile-game-feedback-loops',
-    tech: ['Unity', 'C#', 'FMOD', 'Mobile QA']
+    title: 'Queue-Based Job Processing Platform',
+    description: 'A queue driven job processing system built on AWS, using Python workers and Terraform managed infrastructure to support scalable, reliable background workloads.',
+    link: 'https://github.com/SuperReliableEric/aws-queue-jobs',
+    tech: ['AWS', 'Python', 'Terraform', 'KEDA', 'Github Actions', 'Prometheus', 'Grafana']
   },
   {
-    title: 'Prototype Pipeline',
-    description: 'CI-backed prototype flow that tags builds, runs device smoke tests, and ships test builds automatically.',
-    link: '/blog/building-a-prototype-pipeline',
-    tech: ['CI', 'Android', 'iOS', 'Automation']
+    title: 'Reddit Scrubber',
+    description: 'A Python tool for analyzing and cleaning Reddit content, built to explore data extraction, filtering, and automation at scale.',
+    link: 'https://github.com/SuperReliableEric/RedditScrubber',
+    tech: ['Python', 'SQLite']
   },
   {
-    title: 'Narrative Tools',
-    description: 'Lightweight node-based dialogue editor for branching mobile story scenes.',
-    link: '#',
-    tech: ['Unity', 'ScriptableObjects', 'UX']
+    title: 'Personal Portfolio & Blog',
+    description: 'A personal portfolio site used to bring together engineering projects and technical writing in one place.',
+    link: 'https://github.com/SuperReliableEric/PersonalSite',
+    tech: ['Next.js', 'Tailwind CSS']
   }
 ];
 
 export const metadata = {
-  title: 'Projects | Esha Kurana',
+  title: 'Projects | Eric Ashenden',
   description: 'Featured projects and prototypes.'
 };
 
@@ -31,7 +31,7 @@ export default function ProjectsPage() {
     <section className="mx-auto w-full max-w-5xl px-6 py-12">
       <div className="flex flex-col gap-2">
         <h1 className="text-3xl font-bold text-ink">Projects</h1>
-        <p className="text-lg text-muted">Small, sharp projects that focus on feel, clarity, and measurable polish.</p>
+        <p className="text-lg text-muted">Practical engineering projects exploring systems design, automation, and reliability.</p>
       </div>
 
       <div className="mt-8 grid gap-6 md:grid-cols-2">

@@ -3,8 +3,8 @@ import PostCard from '@/components/PostCard';
 import { getAllPosts } from '@/lib/posts';
 
 export const metadata = {
-  title: 'Blog | Esha Kurana',
-  description: 'Writing about mobile game development, prototyping, and production habits.'
+  title: 'Blog | Eric Ashenden',
+  description: 'Writing about engineering and career growth.'
 };
 
 export default async function BlogPage() {
@@ -15,7 +15,7 @@ export default async function BlogPage() {
       <div className="flex flex-col gap-2">
         <h1 className="text-3xl font-bold text-ink">Blog</h1>
         <p className="max-w-2xl text-lg text-muted">
-          Notes on building and shipping mobile games—what works, what fails, and the shortcuts worth keeping.
+          Writing about engineering, reflection, and career growth. What worked for me, what didn't, and what’s worth paying attention to.
         </p>
       </div>
       <div className="grid gap-4 md:grid-cols-2">

@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <header className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-5">
       <Link href="/" className="text-lg font-semibold tracking-tight">
-        EK<span className="text-accent">.</span>
+        EA<span className="text-accent">.</span>
       </Link>
       <nav className="flex items-center gap-6 text-sm font-medium text-muted">
         {navItems.map((item) => (

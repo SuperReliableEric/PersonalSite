@@ -37,8 +37,8 @@ const skills = [
 const education = [{ school: 'B.S. Software Development', place: 'State University', time: '2022' }];
 
 export const metadata = {
-  title: 'Resume | Esha Kurana',
-  description: 'Resume for Esha Kurana, mobile game developer.'
+  title: 'Resume | Eric Ashenden',
+  description: 'Resume for Eric Ashenden, Senior Site Reliability Engineer.'
 };
 
 export default function ResumePage() {

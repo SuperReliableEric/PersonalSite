@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Params) {
   try {
     const { meta } = await getPostBySlug(slug);
     return {
-      title: `${meta.title} | Esha Kurana`,
+      title: `${meta.title} | Eric Ashenden`,
       description: meta.description
     };
   } catch {

@@ -19,24 +19,24 @@ const archivo = Archivo({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Esha Kurana | Game Developer',
-    template: '%s | Esha Kurana'
+    default: 'Eric Ashenden | Senior Site Reliability Engineer',
+    template: '%s | Eric Ashenden'
   },
   description:
     'Game developer focused on mobile experiences, tight feedback loops, and shippable prototypes. Writing about game feel, production habits, and performance budgets.',
   metadataBase: new URL('https://example.com'),
   openGraph: {
-    title: 'Esha Kurana | Game Developer',
+    title: 'Eric Ashenden | Senior Platform / Site Reliability Engineer',
     description:
       'Mobile game developer focused on tactile experiences, performance budgets, and shipping prototypes that feel great.',
     url: 'https://example.com',
-    siteName: 'Esha Kurana',
+    siteName: 'Eric Ashenden',
     images: [
       {
         url: '/og.png',
         width: 1200,
         height: 630,
-        alt: 'Esha Kurana personal site'
+        alt: 'Eric Ashenden personal site'
       }
     ],
     locale: 'en_US',

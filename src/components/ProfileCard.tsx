@@ -36,7 +36,7 @@ export default function ProfileCard({
         <p className="mt-2 text-base text-muted">{tagline}</p>
       </div>
       <Link
-        href="mailto:esha@example.com?subject=Hey%20Esha"
+        href="mailto:eashenden93@gmail.com?subject=Hello%20Eric%20Ashenden"
         className="btn btn-primary w-full justify-center text-sm sm:w-auto"
       >
         Email me

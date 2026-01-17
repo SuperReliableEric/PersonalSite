@@ -9,7 +9,7 @@ type Social = {
 
 const socials: Social[] = [
   {
-    href: 'https://www.linkedin.com/in/esha',
+    href: 'https://www.linkedin.com/in/ericashenden/',
     label: 'LinkedIn',
     icon: (
       <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
@@ -18,7 +18,7 @@ const socials: Social[] = [
     )
   },
   {
-    href: 'https://github.com/esha',
+    href: 'https://github.com/SuperReliableEric',
     label: 'GitHub',
     icon: (
       <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
@@ -31,7 +31,7 @@ const socials: Social[] = [
     )
   },
   {
-    href: 'https://medium.com/@esha',
+    href: 'https://medium.com/@SuperReliableEric',
     label: 'Medium',
     icon: (
       <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
