@@ -23,13 +23,12 @@ export const metadata: Metadata = {
     template: '%s | Eric Ashenden'
   },
   description:
-    'Game developer focused on mobile experiences, tight feedback loops, and shippable prototypes. Writing about game feel, production habits, and performance budgets.',
-  metadataBase: new URL('https://example.com'),
+    'Senior site reliability engineer focused on resilient cloud systems, observability, automation, and production reliability.',
+  metadataBase: new URL('https://ericashenden.com'),
   openGraph: {
-    title: 'Eric Ashenden | Senior Platform / Site Reliability Engineer',
-    description:
-      'Mobile game developer focused on tactile experiences, performance budgets, and shipping prototypes that feel great.',
-    url: 'https://example.com',
+    title: 'Eric Ashenden | Senior Site Reliability Engineer',
+    description: 'Building resilient cloud platforms with automation, observability, and reliability at scale.',
+    url: 'https://ericashenden.com',
     siteName: 'Eric Ashenden',
     images: [
       {

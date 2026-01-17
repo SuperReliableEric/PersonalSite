@@ -2,39 +2,53 @@ import React from 'react';
 
 const experience = [
   {
-    role: 'Mobile Game Developer',
-    company: 'Indie Studio',
-    time: '2024 — Present',
+    role: 'Senior Site Reliability Engineer',
+    company: 'Corpay',
+    time: '2023 — Present',
     bullets: [
-      'Shipped two mobile prototypes with 30% better retention through faster tutorial loops and tuned haptics.',
-      'Built a Unity tooling bundle to profile frame budgets and automate device smoke tests.',
-      'Partnered with designers to translate paper prototypes into playable builds in under a week.'
+      "Led reliability improvements across Kubernetes workloads, including introducing KEDA-based scaling, optimizing Helm charts, and improving deployment pipelines to increase efficiency and security.",
+      "Drove the migration from legacy identity approaches to Kubernetes Workload Identity, reducing operational risk and simplifying service authentication.",
+      "Expanded observability by building custom Datadog monitors and dashboards and developing a Python-based SSL certificate monitoring tool to close visibility gaps.",
+      "Automated operational workflows to reduce toil, debugged critical production incidents, and improved overall system resilience.",
+      "Mentored junior SREs through incident response, troubleshooting, and automation best practices."
     ]
   },
   {
-    role: 'Software Developer',
-    company: 'Bootcamp + Freelance',
-    time: '2022 — 2024',
+    role: 'Site Reliability Engineer',
+    company: 'Corpay',
+    time: '2021 — 2023',
     bullets: [
-      'Delivered web and mobile MVPs for small clients; focused on performance and accessibility.',
-      'Ran playtest sessions, synthesized feedback, and turned findings into prioritized sprints.',
-      'Maintained CI pipelines with automated checks for crashes and FPS regressions.'
+      "Supported production systems, focusing on incident response, operational automation, and improving developer experience in production environments.",
+      "Partnered closely with application teams to troubleshoot production issues, improve deployment reliability, and reduce recurring operational pain.",
+      "Built and refined automation to eliminate manual operational tasks while learning large-scale system design and reliability practices from experienced engineers.",
+      "Contributed to post-incident reviews, developing a strong understanding of real-world failure modes and system behavior."
+    ]
+  },
+  {
+    role: 'DevOps Engineer',
+    company: 'Flexential',
+    time: '2020 — 2021',
+    bullets: [
+      "Designed, automated, and maintained cloud infrastructure across multiple AWS and Azure client environments using Kubernetes, Terraform, and CI/CD pipelines.",
+      "Served as a technical escalation point for incidents, outages, and complex operational issues across multiple customer environments.",
+      "Led infrastructure onboarding for new clients and acted as the primary engineer for several production environments.",
+      "Improved security posture and reliability through infrastructure refactoring, certificate lifecycle management, and proactive incident response.",
+      "Mentored teammates and collaborated with senior engineers to evolve reference architectures and operational practices."
     ]
   }
 ];
 
 const skills = [
-  'Unity / C#',
-  'C++ basics',
-  'Gameplay programming',
-  'Mobile performance budgets',
-  'Haptics & audio timing',
-  'CI for prototypes',
-  'Playtest synthesis',
-  'Narrative + UX collaboration'
+  'Distributed systems & reliability engineering',
+  'Kubernetes platforms & workload orchestration',
+  'Infrastructure as Code & cloud automation',
+  'Observability, monitoring, and incident analysis',
+  'CI/CD pipelines & release automation',
+  'Production troubleshooting & operational tooling',
+  'Technical mentorship & cross-team collaboration'
 ];
 
-const education = [{ school: 'B.S. Software Development', place: 'State University', time: '2022' }];
+const education = [{ school: 'B.S. Computer Science: Software Engineering', place: 'Radford University', time: '2012-2016' }];
 
 export const metadata = {
   title: 'Resume | Eric Ashenden',
@@ -46,7 +60,6 @@ export default function ResumePage() {
     <section className="mx-auto w-full max-w-4xl px-6 py-12">
       <div className="flex flex-col gap-2">
         <h1 className="text-3xl font-bold text-ink">Resume</h1>
-        <p className="text-muted">Mobile game developer focused on tactile play, fast prototypes, and measurable polish.</p>
         <a
           href="/resume.pdf"
           className="btn btn-primary mt-2 w-fit"
