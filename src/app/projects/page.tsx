@@ -5,7 +5,7 @@ const projects = [
     title: 'Queue-Based Job Processing Platform',
     description: 'A queue driven job processing system built on AWS, using Python workers and Terraform managed infrastructure to support scalable, reliable background workloads.',
     link: 'https://github.com/SuperReliableEric/aws-queue-jobs',
-    tech: ['AWS', 'Python', 'Terraform', 'KEDA', 'Github Actions', 'Prometheus', 'Grafana']
+    tech: ['AWS', 'Python', 'Terraform', 'KEDA', 'GitHub Actions', 'Prometheus', 'Grafana']
   },
   {
     title: 'Reddit Scrubber',
@@ -39,17 +39,21 @@ export default function ProjectsPage() {
           <a
             key={project.title}
             href={project.link}
-            className="rounded-xl border border-ink/10 bg-white/80 p-6 shadow-soft transition hover:-translate-y-0.5 hover:shadow-lg"
+            className="flex h-full flex-col justify-between rounded-xl border border-ink/10 bg-white/80 p-6 shadow-soft transition hover:-translate-y-0.5 hover:shadow-lg"
           >
-            <p className="text-sm uppercase tracking-[0.08em] text-muted">Featured</p>
-            <h3 className="mt-1 text-xl font-semibold text-ink">{project.title}</h3>
-            <p className="mt-2 text-muted">{project.description}</p>
-            <div className="mt-3 flex flex-wrap gap-2">
-              {project.tech.map((item) => (
-                <span key={item} className="rounded-full bg-panel px-3 py-1 text-xs font-semibold text-ink">
-                  {item}
-                </span>
-              ))}
+            <div>
+              <h3 className="mt-1 text-xl font-semibold text-ink">{project.title}</h3>
+              <p className="mt-2 text-muted">{project.description}</p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {project.tech.map((item) => (
+                  <span key={item} className="rounded-full bg-panel px-3 py-1 text-xs font-semibold text-ink">
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="mt-4 flex justify-end text-sm font-semibold text-accent">
+              View on GitHub <span className="ml-1" aria-hidden="true">→</span>
             </div>
           </a>
         ))}

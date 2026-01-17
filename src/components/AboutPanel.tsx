@@ -42,6 +42,9 @@ export default function AboutPanel({ about, latestPost, featuredProject }: About
             >
               <p className="text-[12px] font-semibold uppercase tracking-wide text-muted">Latest post</p>
               <p className="mt-1 text-base font-semibold text-ink">{latestPost.title}</p>
+              {latestPost.description && (
+                <p className="mt-1 text-sm text-muted">{latestPost.description}</p>
+              )}
               <p className="text-xs text-muted">{latestPost.dateReadable}</p>
               <span className="mt-2 inline-flex items-center gap-1 text-[13px] text-accent">
                 Read post
