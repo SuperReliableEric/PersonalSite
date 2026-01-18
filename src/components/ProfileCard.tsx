@@ -14,7 +14,7 @@ export default function ProfileCard({
   name,
   title,
   tagline,
-  imageSrc = '/profile.png'
+  imageSrc = '/profile_bw.jpg'
 }: ProfileCardProps) {
   return (
     <div className="card split-panel flex h-full flex-col items-start gap-5 bg-white p-8">
