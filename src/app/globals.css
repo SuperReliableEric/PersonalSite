@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1f1f1f;
+  background-color: #f7f7f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-manrope), var(--font-archivo), system-ui, -apple-system, sans-serif;
+  background: radial-gradient(circle at 20% 20%, #f9fafb, #f1f1f1 40%), #f7f7f7;
+  color: #1f1f1f;
+}
+
+a {
+  color: #255df5;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #1c49c4;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-md px-5 py-3 text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+}
+
+.btn-primary {
+  @apply bg-dark text-white hover:bg-black focus-visible:outline-black;
+}
+
+.btn-secondary {
+  @apply border border-ink/15 bg-white text-ink hover:border-ink/40 focus-visible:outline-dark;
+}
+
+.split-panel {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.prose :where(a) {
+  color: #255df5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.prose :where(a:hover) {
+  text-decoration: underline;
+}
+
+.prose :where(code) {
+  background: #0f172a10;
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.35rem;
+  border: 1px solid #e5e7eb;
+}
+
+.prose :where(blockquote) {
+  border-left: 4px solid #111827;
+  padding-left: 1rem;
+  color: #374151;
+}
+
+/* Remove automatic quote marks from blockquotes */
+.prose :where(blockquote p:first-of-type)::before,
+.prose :where(blockquote p:last-of-type)::after {
+  content: none !important;
+}
+
+.card {
+  @apply rounded-xl border border-ink/10 bg-white shadow-soft;
+}
