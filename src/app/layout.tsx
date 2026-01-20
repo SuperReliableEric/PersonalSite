@@ -25,6 +25,11 @@ export const metadata: Metadata = {
   description:
     'Senior site reliability engineer focused on resilient cloud systems, observability, automation, and production reliability.',
   metadataBase: new URL('https://ericashenden.com'),
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png'
+  },
   openGraph: {
     title: 'Eric Ashenden | Senior Site Reliability Engineer',
     description: 'Building resilient cloud platforms with automation, observability, and reliability at scale.',
