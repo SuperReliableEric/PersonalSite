@@ -29,7 +29,7 @@ Here’s a solid **spec** that keeps your split-layout home page, and adds a rea
 * `/blog` Blog index (list of posts)
 * `/blog/[slug]` Blog post page
 * `/resume` Resume page (HTML)
-* `/resume.pdf` Resume download (static file)
+* `/ericashenden_resume.pdf` Resume download (static file)
 * `/projects` (optional but recommended) short portfolio/projects list
 
 If you want to keep nav minimal: Home, Blog, Resume, Projects.
@@ -134,7 +134,7 @@ If you want to keep nav minimal: Home, Blog, Resume, Projects.
 
 ### PDF
 
-* Store as static asset: `/public/resume.pdf`
+* Store as static asset: `/public/ericashenden_resume.pdf`
 * Keep it updated manually (fine) or generate from source later (optional)
 
 ---
