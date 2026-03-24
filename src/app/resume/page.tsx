@@ -61,7 +61,7 @@ export default function ResumePage() {
       <div className="flex flex-col gap-2">
         <h1 className="text-3xl font-bold text-ink">Resume</h1>
         <a
-          href="/resume.pdf"
+          href="/ericashenden_resume.pdf"
           className="btn btn-primary mt-2 w-fit"
           aria-label="Download PDF resume"
           download
